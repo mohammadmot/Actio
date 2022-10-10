@@ -7,7 +7,7 @@ namespace Actio.Common.Events
 {
     public class UserAuthenticated : IEvents
     {
-        public string Email { get; set; }
+        public string? Email { get; set; }
         protected UserAuthenticated()
         {
 
